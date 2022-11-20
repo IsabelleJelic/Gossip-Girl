@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    font-size: 62.5%;
+}
+body,hmtl{
+    background-color: rgb(229	89	190);
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    z-index: 1;
+    background-color: rgb(	227	59	180);
+    padding: 3.2rem 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    gap: 3.2rem;
+}
+
+.menu ul {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    gap: 3.2rem;
+    font-size: 2.4rem;
+    color: white;
+}
+
+.menu ul li a {
+    display: flex;
+    gap: 1.6rem;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+
+    transition: 200ms;
+}
+
+.menu ul li a:hover {
+    transform: scale(1.1);
+
+}
+
+#inicio{
+    text-align: center;
+    margin-top: 15rem;
+}
+#inicio h1{
+    font-size: 4.8rem;
+    color: rgb(255, 255, 255);
+}
+#inicio h2{
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+h2, h3, p{
+    color: white;
+}
+#sobre ul, li {
+    color: white
+}
+.dados{
+    font-size: 1.6rem;
+    padding: 6rem;
+    flex-direction: column;
+    gap: 5;
+    display: flex;
+}
+.dados ul {
+    list-style-type: none;
+}
+.Topo{
+    margin-bottom: 5rem;
+}
+#inicio img{
+    width: 70rem;
+    margin-top: 1.8rem;
+    border-radius: 8px;
+}
+#personagens{
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 2rem;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+.personagem {
+    display: flex;
+    border: 2px solid white;
+    padding: 2rem;
+}
+#personagens img {
+    width: 25rem;
+    border-radius: 8px;
+}
+#personagens h3 {
+    text-align: center;
+}
+#contato {
+    background-color:  rgb(229	89	190);
+    height: 20rem;
+}
+#contato img{
+    width: 5rem;
+}
+.icons{
+    display: flex;
+    gap: 3.2;
+    align-items: center;
+    justify-content: center;
+}
